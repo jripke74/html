@@ -1,3 +1,10 @@
-h1, h2, p {
+/* ID SELECTORS */
+#title {
   color: #00ff00;
+  background-color: #000;
+}
+
+#subheading {
+  color: #ff0000;
+  background-color: #8f8f8f;
 }
