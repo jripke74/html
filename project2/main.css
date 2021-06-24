@@ -1,23 +1,25 @@
-/* INHERITANCE */
-/* Children inherit syles from the parent, unless have their own styles */
+/* Last Rule and Specificity * Universal Slector */
 
-body {
-  color: #ff0000;
-  font-family: monospace;
-  line-height: 1.5;
-  font-size: 20px;
-  border: 3px solid #000;
+* {
+  color: green;
 }
 
 .special {
   color: #00ff00;
-  font-size: 30px;
 }
 
-h2 {
+p {
+  color: #ff0000;
+}
+
+p {
   color: #0000ff;
 }
 
-div {
-  color: greenyellow;
+#heading {
+  color: #ff0000;
+}
+
+.heading {
+  color: #00ff00;
 }
