@@ -1,22 +1,23 @@
-/* DIV AND SPAN - used for grouping */
-/* DIV - used to group multiple elements */
-/* SPAN - used to group inline content */
+/* INHERITANCE */
+/* Children inherit syles from the parent, unless have their own styles */
 
-.green {
-  color: #00ff00;
-  background-color: yellow;
-}
-
-.red {
+body {
   color: #ff0000;
-  background-color: #8f8f8f;
+  font-family: monospace;
+  line-height: 1.5;
+  font-size: 20px;
+  border: 3px solid #000;
 }
 
-span {
-  text-transform: uppercase;
+.special {
+  color: #00ff00;
+  font-size: 30px;
 }
 
-.text {
-  background-color: #fff;
-  color: blue;
+h2 {
+  color: #0000ff;
+}
+
+div {
+  color: greenyellow;
 }
