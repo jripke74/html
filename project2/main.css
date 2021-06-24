@@ -1,10 +1,10 @@
-/* ID SELECTORS */
-#title {
+/* CLASS SELECTORS */
+
+.green {
   color: #00ff00;
-  background-color: #000;
 }
 
-#subheading {
+.red {
   color: #ff0000;
   background-color: #8f8f8f;
 }
