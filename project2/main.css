@@ -1,7 +1,10 @@
-/* CLASS SELECTORS */
+/* DIV AND SPAN - used for grouping */
+/* DIV - used to group multiple elements */
+/* SPAN - used to group inline content */
 
 .green {
   color: #00ff00;
+  background-color: yellow;
 }
 
 .red {
@@ -9,10 +12,11 @@
   background-color: #8f8f8f;
 }
 
-#title {
-  font-size: 50px;
+span {
+  text-transform: uppercase;
 }
 
-.uppercase {
-  text-transform: uppercase;
+.text {
+  background-color: #fff;
+  color: blue;
 }
